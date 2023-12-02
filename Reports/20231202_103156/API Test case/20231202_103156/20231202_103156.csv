@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Test case,Chrome 119.0.0.0,,,2023-12-02 10:32:02,2023-12-02 10:32:13,10.990s,PASSED
+,,,,,,,
+Test Cases/Login OHR - API,Chrome 119.0.0.0,,,2023-12-02 10:32:02,2023-12-02 10:32:13,10.797s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 10:32:02,2023-12-02 10:32:05,2.667s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 10:32:05,2023-12-02 10:32:09,3.840s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 10:32:09,2023-12-02 10:32:09,0.134s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-12-02 10:32:09,2023-12-02 10:32:10,0.895s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-12-02 10:32:10,2023-12-02 10:32:10,0.626s,PASSED
+"iresp = sendRequest(findTestObject(""Object Repository/GET user by id""))",Chrome 119.0.0.0,,,2023-12-02 10:32:10,2023-12-02 10:32:12,2.007s,PASSED
+getResponseStatusCode(iresp),Chrome 119.0.0.0,,,2023-12-02 10:32:12,2023-12-02 10:32:12,0.010s,PASSED
+println(getResponseStatusCode(iresp)),Chrome 119.0.0.0,,,2023-12-02 10:32:12,2023-12-02 10:32:12,0.006s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-12-02 10:32:12,2023-12-02 10:32:13,0.344s,PASSED

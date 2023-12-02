@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Certification Test Suite 1" time="36.401" tests="3" failures="0" errors="0">
+   <testsuite name="Certification Test Suite 1" tests="3" failures="0" errors="0" time="36.401" skipped="0" timestamp="2023-11-28 16:15:09" hostname="p80000642 - INBJHL80000642.CORP.DRREDDYS.COM" id="Test Suites/Certification Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\p80000642\\Katalon Studio\\My First Web UI Project\\Reports\\20231128_161501\\Certification Test Suite 1\\20231128_161502"/>
+         <property name="logFiles" value="C:\\Users\\p80000642\\Katalon Studio\\My First Web UI Project\\Reports\\20231128_161501\\Certification Test Suite 1\\20231128_161502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="p80000642 - INBJHL80000642.CORP.DRREDDYS.COM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="172.27.248.241"/>
+         <property name="sessionId" value="75b45d8ad87da37a3a734bccdc7aeb72"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login OHR" time="9.786" classname="Test Cases/Login OHR" status="PASSED">
+         <system-out><![CDATA[2023-11-28 16:15:09 - [TEST_CASE][PASSED] - Test Cases/Login OHR: Test Cases/Login OHR
+
+2023-11-28 16:15:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-28 16:15:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-28 16:15:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-28 16:15:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-28 16:15:11 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-28 16:15:16 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-28 16:15:16 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-28 16:15:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-28 16:15:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_OrangeHRM/input_username"), 100): Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-28 16:15:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-28 16:15:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-28 16:15:17 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-28 16:15:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-28 16:15:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-28 16:15:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_OrangeHRM/button_Login"), 50): Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-28 16:15:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-28 16:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-28 16:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-28 16:15:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-28 16:15:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Empl" time="13.435" classname="Test Cases/Add Empl" status="PASSED">
+         <system-out><![CDATA[2023-11-28 16:15:19 - [TEST_CASE][PASSED] - Test Cases/Add Empl: Test Cases/Add Empl
+
+2023-11-28 16:15:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-28 16:15:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-28 16:15:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-28 16:15:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-28 16:15:20 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-28 16:15:23 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-28 16:15:23 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-28 16:15:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-28 16:15:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_OrangeHRM/input_username"), 100): Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-28 16:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-28 16:15:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-28 16:15:25 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-28 16:15:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-28 16:15:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-28 16:15:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_OrangeHRM/button_Login"), 50): Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-28 16:15:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-28 16:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-28 16:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-28 16:15:25 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-28 16:15:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-28 16:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-11-28 16:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_PIM' is clicked on
+
+2023-11-28 16:15:30 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-28 16:15:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-28 16:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Add Employee")): Object: 'Object Repository/Page_OrangeHRM/a_Add Employee' is clicked on
+
+2023-11-28 16:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Add Employee' is clicked on
+
+2023-11-28 16:15:32 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2023-11-28 16:15:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-28 16:15:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-28 16:15:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WorkShift" time="13.008" classname="Test Cases/WorkShift" status="PASSED">
+         <system-out><![CDATA[2023-11-28 16:15:32 - [TEST_CASE][PASSED] - Test Cases/WorkShift: Test Cases/WorkShift
+
+2023-11-28 16:15:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-28 16:15:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-28 16:15:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-28 16:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-28 16:15:33 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-28 16:15:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-28 16:15:36 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-28 16:15:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-28 16:15:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_OrangeHRM/input_username"), 100): Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-28 16:15:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-28 16:15:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-28 16:15:37 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-28 16:15:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-28 16:15:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-28 16:15:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_OrangeHRM/button_Login"), 50): Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-28 16:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-28 16:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-28 16:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-28 16:15:38 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-28 16:15:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-28 16:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-11-28 16:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-11-28 16:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/i_oxd-icon bi-chevron-down")): Object: 'Object Repository/Page_OrangeHRM/i_oxd-icon bi-chevron-down' is clicked on
+
+2023-11-28 16:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/i_oxd-icon bi-chevron-down' is clicked on
+
+2023-11-28 16:15:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Work Shifts")): Object: 'Object Repository/Page_OrangeHRM/a_Work Shifts' is clicked on
+
+2023-11-28 16:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Work Shifts' is clicked on
+
+2023-11-28 16:15:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-28 16:15:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-28 16:15:09 - [TEST_SUITE][PASSED] - Certification Test Suite 1: Test Cases/WorkShift]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

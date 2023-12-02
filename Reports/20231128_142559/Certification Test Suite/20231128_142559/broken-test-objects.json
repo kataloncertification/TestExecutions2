@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrangeHRM/input_password",
+      "brokenLocator": "//input[@name\u003d\u0027lastName\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231128_142559/Certification Test Suite/20231128_142559/Object Repository/Page_OrangeHRM/input_password_attributes.png"
+    }
+  ]
+}

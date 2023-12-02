@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite for Visual Checkpoints,Chrome 119.0.0.0,,,2023-12-02 10:44:27,2023-12-02 10:44:34,7.514s,PASSED
+,,,,,,,
+Test Cases/Visual Checkpoints 1,Chrome 119.0.0.0,,,2023-12-02 10:44:27,2023-12-02 10:44:34,7.347s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 10:44:27,2023-12-02 10:44:29,1.864s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 10:44:29,2023-12-02 10:44:33,3.608s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 10:44:33,2023-12-02 10:44:33,0.124s,PASSED
+"takeScreenshotAsCheckpoint(""Login checkpoint"")",Chrome 119.0.0.0,,,2023-12-02 10:44:33,2023-12-02 10:44:34,1.080s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-12-02 10:44:34,2023-12-02 10:44:34,0.425s,PASSED

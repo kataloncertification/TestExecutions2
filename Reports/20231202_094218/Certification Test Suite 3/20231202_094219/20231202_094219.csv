@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Certification Test Suite 3,Chrome 119.0.0.0,,,2023-12-02 09:42:24,2023-12-02 09:48:29,6m - 5.044s,FAILED
+,,,,,,,
+Test Cases/Users-No record found,Chrome 119.0.0.0,,,2023-12-02 09:44:43,2023-12-02 09:45:28,45.264s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 09:44:43,2023-12-02 09:44:44,0.962s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 09:44:44,2023-12-02 09:44:47,3.115s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 09:44:47,2023-12-02 09:44:47,0.009s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-12-02 09:44:47,2023-12-02 09:44:48,0.959s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-12-02 09:44:48,2023-12-02 09:44:48,0.558s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 119.0.0.0,,,2023-12-02 09:44:48,2023-12-02 09:44:49,0.326s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""), 50)",Chrome 119.0.0.0,,,2023-12-02 09:44:49,2023-12-02 09:44:49,0.280s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-12-02 09:44:49,2023-12-02 09:44:49,0.311s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Admin""))",Chrome 119.0.0.0,,,2023-12-02 09:44:49,2023-12-02 09:44:53,3.841s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_User Management""))",Chrome 119.0.0.0,,,2023-12-02 09:44:53,2023-12-02 09:44:55,1.335s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Users""))",Chrome 119.0.0.0,,,2023-12-02 09:44:55,2023-12-02 09:44:56,0.979s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName""))",Chrome 119.0.0.0,,,2023-12-02 09:44:56,2023-12-02 09:45:28,32.578s,FAILED
+,,,,,,,
+Test Cases/Users-record found,Chrome 119.0.0.0,,,2023-12-02 09:47:43,2023-12-02 09:48:29,46.433s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 09:47:43,2023-12-02 09:47:44,1.051s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 09:47:44,2023-12-02 09:47:48,3.881s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 09:47:48,2023-12-02 09:47:48,0.008s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-12-02 09:47:48,2023-12-02 09:47:49,1.326s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-12-02 09:47:49,2023-12-02 09:47:50,0.578s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 119.0.0.0,,,2023-12-02 09:47:50,2023-12-02 09:47:50,0.339s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""), 50)",Chrome 119.0.0.0,,,2023-12-02 09:47:50,2023-12-02 09:47:51,0.302s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-12-02 09:47:51,2023-12-02 09:47:51,0.313s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Admin""))",Chrome 119.0.0.0,,,2023-12-02 09:47:51,2023-12-02 09:47:55,3.759s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_User Management""))",Chrome 119.0.0.0,,,2023-12-02 09:47:55,2023-12-02 09:47:56,1.328s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Users""))",Chrome 119.0.0.0,,,2023-12-02 09:47:56,2023-12-02 09:47:57,0.931s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName""))",Chrome 119.0.0.0,,,2023-12-02 09:47:57,2023-12-02 09:48:29,32.607s,FAILED

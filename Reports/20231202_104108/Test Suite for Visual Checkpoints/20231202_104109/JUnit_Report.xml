@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Visual Checkpoints" time="7.889" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite for Visual Checkpoints" tests="1" failures="0" errors="0" time="7.889" skipped="0" timestamp="2023-12-02 10:41:15" hostname="p80000642 - INBJHL80000642.CORP.DRREDDYS.COM" id="Test Suites/Test Suite for Visual Checkpoints">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\p80000642\\Katalon Studio\\My First Web UI Project\\Reports\\20231202_104108\\Test Suite for Visual Checkpoints\\20231202_104109"/>
+         <property name="logFiles" value="C:\\Users\\p80000642\\Katalon Studio\\My First Web UI Project\\Reports\\20231202_104108\\Test Suite for Visual Checkpoints\\20231202_104109\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Login checkpoint.png"/>
+         <property name="hostName" value="p80000642 - INBJHL80000642.CORP.DRREDDYS.COM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="3385ac5be609f0ffee671d722d2b970e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Visual Checkpoints 1" time="7.698" classname="Test Cases/Visual Checkpoints 1" status="PASSED">
+         <system-out><![CDATA[2023-12-02 10:41:16 - [TEST_CASE][PASSED] - Test Cases/Visual Checkpoints 1: Test Cases/Visual Checkpoints 1
+
+2023-12-02 10:41:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-02 10:41:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-02 10:41:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-02 10:41:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-02 10:41:18 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-12-02 10:41:22 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-12-02 10:41:22 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-12-02 10:41:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-12-02 10:41:22 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Login checkpoint"): Taking screenshot successfully
+
+2023-12-02 10:41:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-12-02 10:41:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login checkpoint.png]]
+
+2023-12-02 10:41:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-02 10:41:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-02 10:41:15 - [TEST_SUITE][PASSED] - Test Suite for Visual Checkpoints: Test Cases/Visual Checkpoints 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

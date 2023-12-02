@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 7" time="46.752" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite 7" tests="2" failures="0" errors="0" time="46.752" skipped="0" timestamp="2023-11-30 00:06:23" hostname="p80000642 - INBJHL80000642.CORP.DRREDDYS.COM" id="Test Suites/Test Suite 7">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\p80000642\\Katalon Studio\\My First Web UI Project\\Reports\\20231130_000616\\Test Suite 7\\20231130_000617"/>
+         <property name="logFiles" value="C:\\Users\\p80000642\\Katalon Studio\\My First Web UI Project\\Reports\\20231130_000616\\Test Suite 7\\20231130_000617\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\p80000642\\Katalon Studio\\My First Web UI Project\\Reports\\20231130_000616\\Test Suite 7\\20231130_000617\\1701283014190.png, C:\\Users\\p80000642\\Katalon Studio\\My First Web UI Project\\Reports\\20231130_000616\\Test Suite 7\\20231130_000617\\1701283014349.png"/>
+         <property name="hostName" value="p80000642 - INBJHL80000642.CORP.DRREDDYS.COM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="fad358e6e8784b758320508bc50571cf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Directory HR Manager" time="14.944" classname="Test Cases/Directory HR Manager" status="PASSED">
+         <system-out><![CDATA[2023-11-30 00:06:23 - [TEST_CASE][PASSED] - Test Cases/Directory HR Manager: Test Cases/Directory HR Manager
+
+2023-11-30 00:06:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-30 00:06:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-30 00:06:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-30 00:06:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-30 00:06:25 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-30 00:06:29 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-30 00:06:29 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-30 00:06:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-30 00:06:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_OrangeHRM/input_username"), 100): Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-30 00:06:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-30 00:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-30 00:06:31 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-30 00:06:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-30 00:06:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-30 00:06:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_OrangeHRM/button_Login"), 50): Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-30 00:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-30 00:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-30 00:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-30 00:06:32 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2023-11-30 00:06:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-30 00:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/span_Directory")): Object: 'Object Repository/Page_OrangeHRM/span_Directory' is clicked on
+
+2023-11-30 00:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Directory' is clicked on
+
+2023-11-30 00:06:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/p_HR Manager"), "HR Manager"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/p_HR Manager' are matched.
+
+2023-11-30 00:06:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/p_HR Manager' are matched.
+
+2023-11-30 00:06:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-30 00:06:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Timesheet Submitted Status" time="15.74" classname="Test Cases/Timesheet Submitted Status" status="PASSED">
+         <system-out><![CDATA[2023-11-30 00:06:54 - [TEST_CASE][PASSED] - Test Cases/Timesheet Submitted Status: Test Cases/Timesheet Submitted Status
+
+2023-11-30 00:06:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-30 00:06:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-30 00:06:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-30 00:06:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-30 00:06:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-30 00:06:55 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-30 00:06:58 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-11-30 00:06:58 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-30 00:06:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-30 00:06:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_OrangeHRM/input_username"), 100): Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-30 00:07:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/input_username' is present
+
+2023-11-30 00:07:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-30 00:07:00 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+2023-11-30 00:07:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-30 00:07:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2023-11-30 00:07:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_OrangeHRM/button_Login"), 50): Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-30 00:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/button_Login' is clickable
+
+2023-11-30 00:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-30 00:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-11-30 00:07:01 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2023-11-30 00:07:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-30 00:07:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Time")): Object: 'Object Repository/Page_OrangeHRM/a_Time' is clicked on
+
+2023-11-30 00:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Time' is clicked on
+
+2023-11-30 00:07:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_View")): Object: 'Object Repository/Page_OrangeHRM/button_View' is clicked on
+
+2023-11-30 00:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_View' is clicked on
+
+2023-11-30 00:07:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/p_Status Submitted"), "Status: Submitted"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/p_Status Submitted' are matched.
+
+2023-11-30 00:07:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/p_Status Submitted' are matched.
+
+2023-11-30 00:07:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-30 00:07:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-30 00:06:23 - [TEST_SUITE][FAILED] - Test Suite 7: Test Cases/Timesheet Submitted Status FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_OrangeHRM/p_Status Submitted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at Timesheet Submitted Status.run(Timesheet Submitted Status:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701282977662.run(TempTestSuite1701282977662.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Status: Submitted' of test object 'Object Repository/Page_OrangeHRM/p_Status Submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2023-11-30 00:06:23 - [TEST_SUITE][FAILED] - Test Suite 7: Test Cases/Timesheet Submitted Status FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_OrangeHRM/p_Status Submitted' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4796)
+	at Timesheet Submitted Status.run(Timesheet Submitted Status:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701282977662.run(TempTestSuite1701282977662.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Status: Submitted' of test object 'Object Repository/Page_OrangeHRM/p_Status Submitted' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

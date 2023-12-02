@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite for Visual Checkpoints,Chrome 119.0.0.0,,,2023-12-02 11:37:45,2023-12-02 11:38:04,18.943s,PASSED
+,,,,,,,
+Test Cases/Visual Checkpoints 1,Chrome 119.0.0.0,,,2023-12-02 11:37:45,2023-12-02 11:37:58,12.854s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 11:37:46,2023-12-02 11:37:47,1.496s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 11:37:47,2023-12-02 11:37:51,4.269s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 11:37:51,2023-12-02 11:37:51,0.105s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-12-02 11:37:51,2023-12-02 11:37:53,1.225s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-12-02 11:37:53,2023-12-02 11:37:53,0.591s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 119.0.0.0,,,2023-12-02 11:37:53,2023-12-02 11:37:54,0.381s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""), 50)",Chrome 119.0.0.0,,,2023-12-02 11:37:54,2023-12-02 11:37:54,0.353s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-12-02 11:37:54,2023-12-02 11:37:54,0.306s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 11:37:54,2023-12-02 11:37:56,1.164s,PASSED
+"takeScreenshotAsCheckpoint(""HomePage checkpoint"")",Chrome 119.0.0.0,,,2023-12-02 11:37:56,2023-12-02 11:37:58,2.562s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-12-02 11:37:58,2023-12-02 11:37:58,0.217s,PASSED
+,,,,,,,
+Test Cases/Visual Checkpoints 2,Chrome 119.0.0.0,,,2023-12-02 11:37:58,2023-12-02 11:38:04,5.947s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 11:37:58,2023-12-02 11:37:59,0.850s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 11:37:59,2023-12-02 11:38:03,3.361s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 11:38:03,2023-12-02 11:38:03,0.011s,PASSED
+"takeScreenshotAsCheckpoint(""Login checkpoint"")",Chrome 119.0.0.0,,,2023-12-02 11:38:03,2023-12-02 11:38:04,1.451s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-12-02 11:38:04,2023-12-02 11:38:04,0.206s,PASSED

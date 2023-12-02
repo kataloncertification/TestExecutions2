@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Certification Test Suite,Chrome 119.0.0.0,,,2023-11-28 14:50:31,2023-11-28 14:50:57,25.972s,PASSED
+,,,,,,,
+Test Cases/Login OHR,Chrome 119.0.0.0,,,2023-11-28 14:50:31,2023-11-28 14:50:40,9.044s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 14:50:31,2023-11-28 14:50:33,1.468s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-11-28 14:50:33,2023-11-28 14:50:37,4.392s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-11-28 14:50:37,2023-11-28 14:50:37,0.117s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-11-28 14:50:37,2023-11-28 14:50:38,0.982s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-11-28 14:50:38,2023-11-28 14:50:39,0.618s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 119.0.0.0,,,2023-11-28 14:50:39,2023-11-28 14:50:39,0.387s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""), 50)",Chrome 119.0.0.0,,,2023-11-28 14:50:39,2023-11-28 14:50:39,0.330s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-11-28 14:50:39,2023-11-28 14:50:40,0.305s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-28 14:50:40,2023-11-28 14:50:40,0.264s,PASSED
+,,,,,,,
+Test Cases/Admin/Jobs-Empl Status/Add Empl,Chrome 119.0.0.0,,,2023-11-28 14:50:40,2023-11-28 14:50:57,16.784s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 14:50:40,2023-11-28 14:50:41,0.727s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 14:50:41,2023-11-28 14:50:42,0.873s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-11-28 14:50:42,2023-11-28 14:50:45,3.561s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-11-28 14:50:45,2023-11-28 14:50:45,0.012s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-11-28 14:50:45,2023-11-28 14:50:46,1.067s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-11-28 14:50:46,2023-11-28 14:50:47,0.608s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 119.0.0.0,,,2023-11-28 14:50:47,2023-11-28 14:50:47,0.363s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""), 50)",Chrome 119.0.0.0,,,2023-11-28 14:50:47,2023-11-28 14:50:48,0.322s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-11-28 14:50:48,2023-11-28 14:50:48,0.302s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_PIM""))",Chrome 119.0.0.0,,,2023-11-28 14:50:48,2023-11-28 14:50:52,3.888s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-11-28 14:50:52,2023-11-28 14:50:52,0.013s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Add Employee""))",Chrome 119.0.0.0,,,2023-11-28 14:50:52,2023-11-28 14:50:54,1.867s,PASSED
+waitForPageLoad(50),Chrome 119.0.0.0,,,2023-11-28 14:50:54,2023-11-28 14:50:54,0.013s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName""), ""Peter"")",Chrome 119.0.0.0,,,2023-11-28 14:50:54,2023-11-28 14:50:56,2.015s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName""), ""Blink"")",Chrome 119.0.0.0,,,2023-11-28 14:50:56,2023-11-28 14:50:56,0.602s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Save""))",Chrome 119.0.0.0,,,2023-11-28 14:50:56,2023-11-28 14:50:57,0.316s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-28 14:50:57,2023-11-28 14:50:57,0.186s,PASSED

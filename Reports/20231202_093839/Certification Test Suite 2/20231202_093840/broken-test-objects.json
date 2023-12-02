@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrangeHRM/i_oxd-icon bi-chevron-down",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div[4]/div/div/div/div/label/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div/header/div[2]/nav/ul/li[2]/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231202_093839/Certification Test Suite 2/20231202_093840/Object Repository/Page_OrangeHRM/i_oxd-icon bi-chevron-down_idRelative.png"
+    }
+  ]
+}

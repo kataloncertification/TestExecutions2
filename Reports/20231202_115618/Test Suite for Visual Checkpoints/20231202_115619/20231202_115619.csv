@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite for Visual Checkpoints,Chrome 119.0.0.0,,,2023-12-02 11:56:25,2023-12-02 11:56:55,30.686s,PASSED
+,,,,,,,
+Test Cases/Visual Checkpoints 1,Chrome 119.0.0.0,,,2023-12-02 11:56:25,2023-12-02 11:56:37,12.252s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 11:56:25,2023-12-02 11:56:27,1.511s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 11:56:27,2023-12-02 11:56:31,4.027s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 11:56:31,2023-12-02 11:56:31,0.102s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-12-02 11:56:31,2023-12-02 11:56:32,1.048s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-12-02 11:56:32,2023-12-02 11:56:32,0.619s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 119.0.0.0,,,2023-12-02 11:56:32,2023-12-02 11:56:33,0.371s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""), 50)",Chrome 119.0.0.0,,,2023-12-02 11:56:33,2023-12-02 11:56:33,0.342s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-12-02 11:56:33,2023-12-02 11:56:33,0.313s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 11:56:33,2023-12-02 11:56:35,1.131s,PASSED
+"takeScreenshotAsCheckpoint(""HomePage checkpoint"")",Chrome 119.0.0.0,,,2023-12-02 11:56:35,2023-12-02 11:56:37,2.356s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-12-02 11:56:37,2023-12-02 11:56:37,0.211s,PASSED
+,,,,,,,
+Test Cases/Visual Checkpoints 2,Chrome 119.0.0.0,,,2023-12-02 11:56:37,2023-12-02 11:56:42,4.665s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 11:56:37,2023-12-02 11:56:38,0.751s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 11:56:38,2023-12-02 11:56:41,2.605s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 11:56:41,2023-12-02 11:56:41,0.012s,PASSED
+"takeScreenshotAsCheckpoint(""Login checkpoint"")",Chrome 119.0.0.0,,,2023-12-02 11:56:41,2023-12-02 11:56:42,1.078s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-12-02 11:56:42,2023-12-02 11:56:42,0.167s,PASSED
+,,,,,,,
+Test Cases/Visual Checkpoints 3,Chrome 119.0.0.0,,,2023-12-02 11:56:42,2023-12-02 11:56:55,13.606s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-12-02 11:56:42,2023-12-02 11:56:43,0.813s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-12-02 11:56:43,2023-12-02 11:56:46,3.298s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-12-02 11:56:46,2023-12-02 11:56:46,0.016s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-12-02 11:56:46,2023-12-02 11:56:48,1.854s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-12-02 11:56:48,2023-12-02 11:56:48,0.570s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 119.0.0.0,,,2023-12-02 11:56:48,2023-12-02 11:56:49,0.359s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""), 50)",Chrome 119.0.0.0,,,2023-12-02 11:56:49,2023-12-02 11:56:49,0.300s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-12-02 11:56:49,2023-12-02 11:56:51,1.680s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Admin""))",Chrome 119.0.0.0,,,2023-12-02 11:56:51,2023-12-02 11:56:54,2.978s,PASSED
+"takeScreenshotAsCheckpoint(""Admin checkpoint"")",Chrome 119.0.0.0,,,2023-12-02 11:56:54,2023-12-02 11:56:55,1.448s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-12-02 11:56:55,2023-12-02 11:56:55,0.236s,PASSED

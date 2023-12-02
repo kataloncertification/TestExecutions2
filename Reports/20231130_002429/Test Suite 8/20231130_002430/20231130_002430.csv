@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 8,Chrome 119.0.0.0,,,2023-11-30 00:24:37,2023-11-30 00:24:54,16.849s,PASSED
+,,,,,,,
+Test Cases/PIM Sample Report,Chrome 119.0.0.0,,,2023-11-30 00:24:38,2023-11-30 00:24:54,16.675s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-30 00:24:38,2023-11-30 00:24:39,1.619s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 119.0.0.0,,,2023-11-30 00:24:39,2023-11-30 00:24:42,2.834s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-11-30 00:24:42,2023-11-30 00:24:42,0.119s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), 100)",Chrome 119.0.0.0,,,2023-11-30 00:24:42,2023-11-30 00:24:43,1.041s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 119.0.0.0,,,2023-11-30 00:24:43,2023-11-30 00:24:44,0.709s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 119.0.0.0,,,2023-11-30 00:24:44,2023-11-30 00:24:45,0.404s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""), 50)",Chrome 119.0.0.0,,,2023-11-30 00:24:45,2023-11-30 00:24:45,0.368s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 119.0.0.0,,,2023-11-30 00:24:45,2023-11-30 00:24:45,0.410s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-11-30 00:24:45,2023-11-30 00:24:47,1.332s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_PIM""))",Chrome 119.0.0.0,,,2023-11-30 00:24:47,2023-11-30 00:24:50,3.057s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-11-30 00:24:50,2023-11-30 00:24:50,0.016s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Reports""))",Chrome 119.0.0.0,,,2023-11-30 00:24:50,2023-11-30 00:24:52,2.440s,PASSED
+waitForPageLoad(100),Chrome 119.0.0.0,,,2023-11-30 00:24:52,2023-11-30 00:24:52,0.012s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/i_oxd-icon bi-chevron-down""))",Chrome 119.0.0.0,,,2023-11-30 00:24:52,2023-11-30 00:24:54,1.382s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_PIM Sample Report""), ""PIM Sample Report"")",Chrome 119.0.0.0,,,2023-11-30 00:24:54,2023-11-30 00:24:54,0.473s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-30 00:24:54,2023-11-30 00:24:54,0.230s,PASSED
